@@ -1,3 +1,4 @@
+import java.lang.Math;
 
 public class area{
 
@@ -9,4 +10,8 @@ public class area{
       return base*height;
     }
 
+    public static double circle(double radius) {
+      return Math.PI*Math.pow(radius,2);
+    }
+    
 }
