@@ -5,4 +5,8 @@ public class area{
       return (base*height)/2;
     }
 
+    public static double rectangle(double base, double height) {
+      return base*height;
+    }
+
 }
