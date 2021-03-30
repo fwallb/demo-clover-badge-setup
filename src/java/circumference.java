@@ -1,3 +1,5 @@
+import java.lang.Math;
+
 public class circumference{
 
   public static double triangle(double a, double b, double c){
@@ -10,6 +12,10 @@ public class circumference{
 
   public static double square(double a){
     return a*4;
+  }
+
+  public static double circle(double radius){
+    return 2*radius*Math.PI;
   }
   
 }
