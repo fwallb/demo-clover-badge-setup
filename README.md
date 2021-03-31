@@ -4,6 +4,7 @@ This repo includes the following matematic functions:
 - Area 
   - Circle
   - Rectangle
+  - Square
   - Triangle 
 - Circumference
   - Circle
