@@ -2,7 +2,7 @@ package demo;
 
 import java.util.*;
 
-public class geometry{
+public class Geometry{
 
   public static String getType(){
     Scanner sc = new Scanner(System.in);
