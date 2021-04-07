@@ -1,3 +1,5 @@
+package demo;
+
 import java.util.*;
 
 public class geometry{
@@ -52,7 +54,7 @@ public class geometry{
       while(h <= 0) {
         System.out.println("Invalid input! Please enter a vaild height: ");
       }
-      result = area.triangle(b,h);
+      result = Area.triangle(b,h);
     }
     else if (figure.equals("R") || figure.equals("r")) {
       System.out.println("Please enter the length of one of the sides: ");
@@ -65,7 +67,7 @@ public class geometry{
       while(b <= 0) {
         System.out.println("Invalid input! Please enter a valid length of the second side: ");
       }
-      result = area.rectangle(a,b);
+      result = Area.rectangle(a,b);
     }
     else if (figure.equals("C") || figure.equals("c")) {
       System.out.println("Please enter the radius: ");
@@ -73,7 +75,7 @@ public class geometry{
       while(radius <= 0) {
         System.out.println("Invalid input! Please enter a valid a valid radius: ");
       }
-      result = area.circle(radius);
+      result = Area.circle(radius);
     }
     return result;
   }
@@ -97,7 +99,7 @@ public class geometry{
       while(c <= 0) {
         System.out.println("Invalid input! Please enter a valud length of the third side: ");
       }
-      result = circumference.triangle(a,b,c);
+      result = Circumference.triangle(a,b,c);
     }
     else if (figure.equals("R") || figure.equals("r")) {
       System.out.println("Please enter the length of one of the sides: ");
@@ -110,7 +112,7 @@ public class geometry{
       while(b <= 0) {
         System.out.println("Invalid input! Please enter a valid length for the second side: ");
       }
-      result = circumference.rectangle(a,b);
+      result = Circumference.rectangle(a,b);
     }
     else if (figure.equals("C") || figure.equals("c")) {
       System.out.println("Please enter the radius: ");
@@ -118,7 +120,7 @@ public class geometry{
       while(radius <= 0) {
         System.out.println("Invalid input! Please enter a valid length of the radius: ");
       }
-      result = circumference.circle(radius);
+      result = Circumference.circle(radius);
     }
     else if (figure.equals("S") || figure.equals("s")) {
       System.out.println("Please enter the length of one of the sides: ");
@@ -126,7 +128,7 @@ public class geometry{
       while(a <= 0) {
         System.out.println("Invalid input! Please enter a valid side length: ");
       }
-      result = circumference.square(a);
+      result = Circumference.square(a);
     }
     return result;
   }
