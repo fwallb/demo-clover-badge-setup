@@ -3,15 +3,15 @@ package demo;
 import org.junit.Assert;
 import org.junit.Test;
 
-class AreaTests {
+public class AreaTests {
 
   @Test
-  void checkAreaCalculatedCorrectly(){
+  public void checkAreaCalculatedCorrectly(){
     double b = 10;
     double h = 20;
     double actual = Area.triangle(b,h);
     double expected = 100;
-    Assert.assertEquals(actual,expected);
+    Assert.assertEquals(0, Double.compare(expected, actual));
   }
 
 }
