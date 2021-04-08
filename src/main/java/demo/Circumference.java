@@ -1,6 +1,8 @@
+package demo;
+
 import java.lang.Math;
 
-public class circumference{
+public class Circumference{
 
   public static double triangle(double a, double b, double c){
     return a+b+c;
@@ -17,5 +19,5 @@ public class circumference{
   public static double circle(double radius){
     return 2*radius*Math.PI;
   }
-  
+
 }
