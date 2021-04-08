@@ -4,7 +4,3 @@ script:
   - mvn clean install
   - mvn test
 
-uses: danhunsaker/clover-reporter-action@v0.2.17-clover
-with:
-  github-token: $demo
-  clover-file: ./target/site/clover/clover.xml
