@@ -6,5 +6,5 @@ script:
 
 uses: danhunsaker/clover-reporter-action@v0.2.17-clover
 with:
-  github-token: ${{ secrets.GITHUB_TOKEN }}
+  github-token: $demo
   clover-file: ./target/site/clover/clover.xml
